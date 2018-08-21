@@ -1,5 +1,5 @@
 import React from 'react';
-import './device.css';
+import './device-price.css';
 
 const DevicePrice = props => {
   const {upfrontPrice=100, monthlyPrice=10.5} = props;

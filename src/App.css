@@ -1,0 +1,72 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 13px;
+  width: 800px;
+  height: 400px;
+  background-color: #fff;
+  margin: 8rem 3rem;
+  padding: 1rem;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  justify-content: center;
+  margin-left: 2rem;
+  padding: 1rem 5rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.phone-description {
+  margin-top: 2rem;
+  font-size: 12px;
+  margin-right: 2rem;  
+}
+
+.colour-capacity {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.device-colour {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3.5rem;
+}
+
+.device-capacity {
+  display: flex;
+  flex-direction: column;
+}
+
+.device-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f1f1f1;
+  margin-top: 3rem;
+  margin-right: 3.5rem;
+  padding: 1rem;
+  width: 350px;
+  height: 50px;
+}
+
+.upfront-cost {
+  width: 50%;
+  font-size: 7px;
+  border-right: 1px solid #b4b4b4;
+}
+.monthly-cost {
+  width: 50%;
+  font-size: 7px;
+  padding-left: 0.5rem;
+}
