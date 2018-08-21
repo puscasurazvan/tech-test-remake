@@ -1,0 +1,9 @@
+.device-price {
+  font-size: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.red {
+  color: red;
+}
