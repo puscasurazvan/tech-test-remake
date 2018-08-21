@@ -1,0 +1,27 @@
+.button,
+.button__selected {
+  background-color: transparent;
+  border-radius: 20%;
+  border: 1px solid lightgray;
+  width: 36px;
+  height: 36px;
+  font-size: 12px;
+  text-align: center;
+  outline: none;
+  margin: 10px;
+  position: relative;
+}
+.button::after,
+.button__selected::after {
+  border: 2px solid transparent;
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 20%;
+}
+.button__selected::after {
+  border-color: #000000;
+}
